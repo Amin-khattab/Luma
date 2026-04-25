@@ -1,0 +1,34 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.next/**": true,
+    "**/node_modules/**": true,
+    "**/coverage/**": true,
+    "**/build/**": true,
+    "**/out/**": true,
+    "**/app/generated/prisma/**": true
+  },
+  "files.exclude": {
+    "**/.next": true,
+    "**/coverage": true,
+    "**/build": true,
+    "**/out": true
+  },
+  "search.exclude": {
+    "**/.next": true,
+    "**/node_modules": true,
+    "**/coverage": true,
+    "**/build": true,
+    "**/out": true,
+    "**/app/generated/prisma": true
+  },
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "javascript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.tsserver.watchOptions": {
+    "watchFile": "useFsEventsOnParentDirectory",
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriority"
+  }
+}
