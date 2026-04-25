@@ -4,21 +4,9 @@ Luma is a polished one-to-one messaging app built with Next.js, Prisma, PostgreS
 
 ## Screenshots
 
-### Sign Up
-
-![Luma sign up page](./photos/sign_up.png)
-
-### Sign In
-
-![Luma sign in page](./photos/sign_in.png)
-
-### Chat
+### App Preview
 
 ![Luma chat page](./photos/chat.png)
-
-### Settings
-
-![Luma settings page](./photos/settings.png)
 
 ## Features
 
